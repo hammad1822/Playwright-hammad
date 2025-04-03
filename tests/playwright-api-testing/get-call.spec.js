@@ -6,4 +6,6 @@ test('should be get all the booking details', async ({ request }) => {
     console.log(await response.json());
     expect(response.ok()).toBeTruthy();
     expect(response.status()).toBe(200);
+    console.log(response.status());
+    console.log(response.status());
 });
